@@ -1,0 +1,71 @@
+.hero {
+    padding: 20px 0px 50px 0px;
+}
+
+i,
+svg,
+footer {
+    z-index: 0 !important;
+}
+
+.badge {
+    padding: 13px;
+    background-color: #ffb700f1;
+    color: #252525;
+    font-weight: 700;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+
+.info h1 {
+    font-family: 'Roboto Mono', monospace !important;
+    line-height: 55px;
+    font-weight: 500;
+    color: #FAFAFA;
+    letter-spacing: 1.25px;
+    font-size: 40px;
+}
+
+.codeIcn {
+    font-size: 30px;
+    margin: 0px 0px -10px 5px;
+    color: #4a4c53;
+}
+
+.sweet-loading {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.imgSec {
+    position: relative;
+    z-index: -10;
+}
+
+.icnReact {
+    width: 120px;
+    position: absolute;
+    bottom: 4em;
+    left: 3em;
+    z-index: 0 !important;
+}
+
+.icnNode {
+    width: 160px;
+    position: absolute;
+    bottom: 0em;
+    right: 0em;
+    z-index: -10 !important;
+}
+
+
+.icnJs {
+    width: 100px;
+    position: absolute;
+    top: 10em;
+    right: 4em;
+    z-index: 0 !important;
+}

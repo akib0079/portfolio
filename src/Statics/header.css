@@ -1,3 +1,13 @@
+body {
+    position: relative;
+}
+
+header {
+    position: sticky;
+    width: 100%;
+    top: 0px;
+}
+
 .icn {
     color: white;
     font-size: 24px;
@@ -11,7 +21,8 @@
     right: 0px;
     height: 100vh;
     width: 25em;
-    padding-top: 5%;
+    padding-top: 6em;
+    z-index: 90 !important;
 }
 
 
@@ -24,6 +35,7 @@
     padding: 0px;
     box-shadow: #f9b40537 0px 1px 3px 0px, rgba(139, 139, 139, 0.187) 0px 0px 0px 1px;
     border-radius: 10px;
+
 }
 
 .sticky i {
@@ -45,8 +57,9 @@
     border-radius: 0px;
     padding: 0px;
     color: white;
-    z-index: 100;
+    z-index: 100 !important;
 }
+
 
 .lite i {
     font-size: 20px;

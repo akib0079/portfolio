@@ -5,6 +5,7 @@
 body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
+    z-index: -99;
 }
 
 p {
@@ -17,4 +18,60 @@ p {
 
 .container {
     max-width: 1400px !important;
+}
+
+.cursor {
+    width: 30px;
+    height: 30px;
+    border: 2px solid #F2AE02;
+    border-radius: 50%;
+    position: absolute;
+    background: none;
+    transition-duration: 300ms;
+    transition-timing-function: ease;
+    animation: curAnim 0.5s infinite alternate;
+    opacity: 0.5;
+    pointer-events: auto;
+    z-index: -10;
+}
+
+a {
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+button {
+    cursor: pointer !important;
+    z-index: 1 !important;
+}
+
+@keyframes curAnim {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(0.6);
+    }
+}
+
+@keyframes curAnim2 {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(3);
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+
+.expend {
+    animation: curAnim2 0.5s forwards;
+    border: 8px solid #FFB700;
 }
