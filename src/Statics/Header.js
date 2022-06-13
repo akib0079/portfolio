@@ -43,7 +43,7 @@ const Header = () => {
 
     return (
         <header>
-            <nav className="navbar bg-base-100 container mx-auto py-7 z-40">
+            <nav className="navbar bg-base-100 container mx-auto py-3 z-40">
                 <div className="flex-1">
                     <Link to={'/home'}>
                         <img className="w-4/5" src={logo} alt="" />
@@ -58,6 +58,10 @@ const Header = () => {
                         <li><a target={'blank'} href='https://www.linkedin.com/in/akib0079/'>
                             <i class='icn bx bxl-linkedin'></i>
                             <p className='hidden sm:block'>LinkedIn</p>
+                        </a></li>
+                        <li><a target={'blank'} href='https://drive.google.com/file/d/1fopxi84ITSOX1MuTDqEE13qm_iratkLq/view?usp=sharing'>
+                            <i class='icn bx bx-download' ></i>
+                            <p className='hidden sm:block'>Resume</p>
                         </a></li>
                         <li className='ml-4 menuIcn'>
                             <label className="swap swap-rotate w-full">

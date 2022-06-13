@@ -1,12 +1,24 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Home.css';
 import mainImg from '../../images/main image.webp'
 import reactIcn from '../../images/react-icn.svg';
 import nodeIcn from '../../images/node-icn.svg';
 import jsIcn from '../../images/js-icn.svg';
 import { Link } from 'react-router-dom';
+import { useSpring } from 'react-spring';
 
 const Home = () => {
+
+    const [flip, set] = useState(false)
+    const { number } = useSpring({
+        reset: true,
+        reverse: flip,
+        from: { number: 0 },
+        number: 1,
+        delay: 200,
+        onRest: () => set(!flip),
+    })
+
     return (
         <section className="hero container mx-auto p-5 lg:p-0">
             <div className="sectionInner grid lg:grid-cols-2 items-center gap-4">
@@ -14,8 +26,14 @@ const Home = () => {
                     <p className='badge'>FullStack Web developer : Akib0079</p>
                     <h1 className="md:text-5xl">It's not a bug. It's an undocumented feature
                         <i class='bx bx-code-curly codeIcn' ></i></h1>
-                    <p className="py-6">Hello, this is Akib Zawayed. A Designer, A Developer, and A Wordpress-Expert. Trying to make the Web better and more innovative in my own way.</p>
-                    <Link to={'/about'}><button className="btn btn-secondary">Get Started</button></Link>
+                    <p className="py-6">Hello, this is Akib Zawayed. A Designer, A Developer, and A Wordpress-Expert. Trying to make the Web better and more innovative in my own way.
+                    </p>
+                    <div className="flex gap-5">
+                        <button className="mainBtn mt-2">Lets Chat! <i class='bx bxs-conversation' ></i></button>
+                    </div>
+                    <div className="counterSec">
+                        <div>{number.to(n => n.toFixed(2))}</div>
+                    </div>
                 </div>
                 <div className="imgSec" data-aos="fade-left" >
                     <img className='w-4/5 mx-auto' src={mainImg} alt="" />
