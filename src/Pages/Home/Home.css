@@ -128,6 +128,35 @@ footer {
 }
 
 
+.counter h3 {
+    font-size: 40px;
+    margin-right: 10px;
+    font-weight: 500;
+    color: #FAFAFA;
+}
+
+.counters {
+    max-width: 520px;
+    background-color: #272b3474;
+    border-radius: 20px;
+    margin-top: 30px;
+    z-index: -10 !important;
+}
+
+.counter2nd {
+    position: relative;
+}
+
+.counter2nd::before {
+    content: '';
+    width: 1px;
+    background-color: #8a92a953;
+    height: 50px;
+    position: absolute;
+    left: -2.5em;
+}
+
+
 
 
 

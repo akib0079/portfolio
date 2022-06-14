@@ -7,7 +7,7 @@ const Footer = () => {
         <footer>
             <div className="footerInner footer items-center p-4 bg-neutral text-neutral-content container mx-auto text-white">
                 <div className="items-center grid-flow-col">
-                    <i class='icn bx bxs-copyright' ></i>
+                    <i className='icn bx bxs-copyright' ></i>
                     <p>Copyright © 2022 - All right reserved</p>
                 </div>
                 <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">

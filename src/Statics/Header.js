@@ -15,25 +15,25 @@ const Header = () => {
         menu = <ul className="menu lite p-4 overflow-y-auto animate__animated animate__slideInRight">
             <li>
                 <Link to={'/home'}>
-                    <i class='bx bxs-home m-0' ></i>
+                    <i className='bx bxs-home m-0' ></i>
                     <p>Home</p>
                 </Link>
             </li>
             <li>
                 <Link to={'/about'}>
-                    <i class='bx bxs-pen' ></i>
+                    <i className='bx bxs-pen' ></i>
                     <p>About</p>
                 </Link>
             </li>
             <li>
                 <Link to={'/projects'}>
-                    <i class='bx bx-code-curly' ></i>
+                    <i className='bx bx-code-curly' ></i>
                     <p>Recent Projects</p>
                 </Link>
             </li>
             <li>
                 <Link to={'/home'}>
-                    <i class='bx bxl-blogger' ></i>
+                    <i className='bx bxl-blogger' ></i>
                     <p>Blogs</p>
                 </Link>
             </li>
@@ -52,15 +52,15 @@ const Header = () => {
                 <div className="flex-none">
                     <ul className="menu menu-horizontal p-0">
                         <li><a target={'blank'} href='https://github.com/akib0079'>
-                            <i class='icn bx bxl-github'></i>
+                            <i className='icn bx bxl-github'></i>
                             <p className='hidden sm:block'>Github</p>
                         </a></li>
                         <li><a target={'blank'} href='https://www.linkedin.com/in/akib0079/'>
-                            <i class='icn bx bxl-linkedin'></i>
+                            <i className='icn bx bxl-linkedin'></i>
                             <p className='hidden sm:block'>LinkedIn</p>
                         </a></li>
                         <li><a target={'blank'} href='https://drive.google.com/file/d/1fopxi84ITSOX1MuTDqEE13qm_iratkLq/view?usp=sharing'>
-                            <i class='icn bx bx-download' ></i>
+                            <i className='icn bx bx-download' ></i>
                             <p className='hidden sm:block'>Resume</p>
                         </a></li>
                         <li className='ml-4 menuIcn'>
@@ -78,30 +78,30 @@ const Header = () => {
 
 
             {/* sticky
-            <ul class="menu sticky hidden 2xl:block bg-base-100 rounded-box">
+            <ul className="menu sticky hidden 2xl:block bg-base-100 rounded-box">
                 <li>
                     <Link to={'/home'} title={'Back to Home'}>
-                        <i class='bx bxs-home m-0' ></i>
+                        <i className='bx bxs-home m-0' ></i>
                     </Link>
                 </li>
                 <li>
                     <Link to={'/about'} title={'About me'}>
-                        <i class='bx bxs-pen' ></i>
+                        <i className='bx bxs-pen' ></i>
                     </Link>
                 </li>
                 <li>
                     <Link to={'/projects'} title={'Projects'}>
-                        <i class='bx bx-code-curly' ></i>
+                        <i className='bx bx-code-curly' ></i>
                     </Link>
                 </li>
                 <li>
                     <Link to={'/blogs'} title={'visit blogs'}>
-                        <i class='bx bxl-blogger' ></i>
+                        <i className='bx bxl-blogger' ></i>
                     </Link>
                 </li>
                 <li>
                     <Link to={'/contact'} title={'contact me'}>
-                        <i class='bx bxs-envelope'></i>
+                        <i className='bx bxs-envelope'></i>
                     </Link>
                 </li>
             </ul> */}
