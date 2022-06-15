@@ -6,6 +6,7 @@ body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
     z-index: -99;
+    scroll-behavior: smooth;
 }
 
 p {
@@ -18,12 +19,13 @@ p {
 
 .container {
     max-width: 1400px !important;
+    padding: 10px;
 }
 
 .cursor {
     width: 30px;
     height: 30px;
-    border: 2px solid #F2AE02;
+    border: 2px solid #fdcf5a;
     border-radius: 50%;
     position: absolute;
     background: none;

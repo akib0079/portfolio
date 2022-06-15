@@ -1,23 +1,46 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './footer.css'
+import logo2 from '../../images/logo2.png'
 
 const Footer = () => {
+
     return (
         <footer>
-            <div className="footerInner footer items-center p-4 bg-neutral text-neutral-content container mx-auto text-white">
-                <div className="items-center grid-flow-col">
-                    <i className='icn bx bxs-copyright' ></i>
-                    <p>Copyright © 2022 - All right reserved</p>
+            <div className="footerTopInner flex flex-col md:flex-row gap-6 container mx-auto mb-10 justify-between">
+                <div className="contactdiv footerInfo">
+                    <h1 className="md:text-4xl">
+                        Lets Develop Something Exclusive<br></br> For you in a Convenient way.
+                        <i class='bx bx-message-square-dots codeIcn' ></i>
+                    </h1>
+                    <a target={'blank'} href="https://www.fiverr.com/akib0079"><button className="mainBtn mt-10 mb-9">Hire me <i className='bx bxs-conversation' ></i></button></a>
                 </div>
-                <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end">
-                    <Link to={'/home'}><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-current"><path d="M24 4.557c-.883.392-1.832.656-2.828.775 1.017-.609 1.798-1.574 2.165-2.724-.951.564-2.005.974-3.127 1.195-.897-.957-2.178-1.555-3.594-1.555-3.179 0-5.515 2.966-4.797 6.045-4.091-.205-7.719-2.165-10.148-5.144-1.29 2.213-.669 5.108 1.523 6.574-.806-.026-1.566-.247-2.229-.616-.054 2.281 1.581 4.415 3.949 4.89-.693.188-1.452.232-2.224.084.626 1.956 2.444 3.379 4.6 3.419-2.07 1.623-4.678 2.348-7.29 2.04 2.179 1.397 4.768 2.212 7.548 2.212 9.142 0 14.307-7.721 13.995-14.646.962-.695 1.797-1.562 2.457-2.549z"></path></svg>
-                    </Link>
-                    <Link to={'/home'}><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-current"><path d="M19.615 3.184c-3.604-.246-11.631-.245-15.23 0-3.897.266-4.356 2.62-4.385 8.816.029 6.185.484 8.549 4.385 8.816 3.6.245 11.626.246 15.23 0 3.897-.266 4.356-2.62 4.385-8.816-.029-6.185-.484-8.549-4.385-8.816zm-10.615 12.816v-8l8 3.993-8 4.007z"></path></svg></Link>
-                    <Link to={'/home'}><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" className="fill-current"><path d="M9 8h-3v4h3v12h5v-12h3.642l.358-4h-4v-1.667c0-.955.192-1.333 1.115-1.333h2.885v-5h-3.808c-3.596 0-5.192 1.583-5.192 4.615v3.385z"></path></svg></Link>
+
+                {/*  */}
+                <div className="info footerInfo w-max">
+                    <p className='mb-5'>Contact info.</p>
+                    <p className='md:text-2xl'>Mirpur-2 Dhaka 1216</p>
+
+                    <p className="md:text-3xl text-white mt-2 hover:underline">
+                        <a target={'blank'} href="mailto:akibzawayed0079@gmail.com">akibzawayed0079@gmail.com</a>
+                    </p>
                 </div>
             </div>
-        </footer>
+            <div className="footerBtmInner footer items-center text-neutral-content container mx-auto">
+                <div className="items-center grid-flow-col">
+                    <img className='fLogo' src={logo2} alt="footer Logo" />
+                    <i className='icn bx bxs-copyright' ></i>
+                    <p className='text-white'>Copyright © 2022 - All right reserved</p>
+                </div>
+                <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end icns items-center">
+                    <a target={'blank'} href="https://www.facebook.com/akibzawayed0079"><i class='bx bxl-facebook'></i></a>
+                    <a target={'blank'} href="https://www.instagram.com/akib_zawayed/"><i class='bx bxl-instagram' ></i></a>
+                    <a target={'blank'} href="https://github.com/akib0079"><i class='bx bxl-github' ></i></a>
+                    <a href="mailto:akibzawayed0079@gmail.com"><i class='bx bxs-envelope' ></i></a>
+                    <i onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} class='bx bxs-chevron-up-circle topIcn' title='Navigate to Top' ></i>
+                </div>
+            </div>
+        </footer >
     );
 };
 

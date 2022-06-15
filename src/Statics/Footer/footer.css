@@ -1,4 +1,71 @@
 footer {
-    background-color: #202537;
+    background-color: #252732b3;
     width: 100%;
+    padding: 70px 0px 20px 0px;
+    z-index: -11;
+    border-top: 1px solid rgba(171, 171, 171, 0.11);
+}
+
+.footerBtmInner {
+    padding-top: 30px;
+    border-top: 1px solid rgba(171, 171, 171, 0.183);
+}
+
+
+.icns a i {
+    color: white;
+    font-size: 26px;
+    margin: 0px 0px 0px 20px !important;
+    transition: 0.5s;
+}
+
+.icns a i:hover {
+    transform: translateY(-3px);
+}
+
+.fLogo {
+    width: 130px;
+    margin-right: 50px;
+}
+
+.topIcn {
+    color: #20222E;
+    font-size: 26px;
+    margin: 0px 0px 0px 20px !important;
+    transition: 0.5s;
+    background-color: #F2B314;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.topIcn:hover {
+    transform: translateY(-3px);
+}
+
+
+.footerTopInner {
+    margin-bottom: 40px;
+}
+
+
+.footerInfo h1 {
+    font-family: 'Roboto Mono', monospace !important;
+    font-weight: 400;
+    color: #FAFAFA;
+    letter-spacing: 1.25px;
+    font-size: 33px;
+    line-height: 50px;
+}
+
+.contactdiv .link {
+    font-family: 'Roboto Mono', monospace !important;
+    font-weight: 400;
+    color: #fccc53;
+    letter-spacing: 1.25px;
+    font-size: 23px;
+    padding-top: 40px;
+    display: block;
+    text-decoration: none;
 }

@@ -6,6 +6,12 @@ header {
     position: sticky;
     width: 100%;
     top: 0px;
+    z-index: 100;
+    background-color: #141824 !important;
+}
+
+.logo {
+    width: 170px;
 }
 
 .icn {

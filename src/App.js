@@ -51,7 +51,7 @@ function App() {
       <Header></Header>
 
       {/* custom cursor */}
-      <div id='cursor' className="cursor"></div>
+      <div id='cursor' className="cursor hidden lg:block"></div>
 
 
 
