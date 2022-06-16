@@ -7,9 +7,19 @@ const Header = () => {
 
     const [showMenu, setShowMenu] = useState(false);
 
+    window.addEventListener("scroll", function () {
+        let navArea = document.getElementById("header");
+
+        if (window.pageYOffset > 0) {
+            navArea.classList.add("shrink");
+        } else {
+            navArea.classList.remove("shrink");
+        }
+    });
 
 
     let menu;
+
 
     if (showMenu) {
         menu = <ul className="menu lite p-4 overflow-y-auto animate__animated animate__slideInRight">
@@ -42,7 +52,7 @@ const Header = () => {
 
 
     return (
-        <header>
+        <header id='header' className='header'>
             <nav className="navbar bg-base-100 container mx-auto py-3 z-40">
                 <div className="flex-1">
                     <Link to={'/home'}>

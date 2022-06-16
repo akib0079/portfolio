@@ -2,17 +2,39 @@ body {
     position: relative;
 }
 
-header {
+.header {
     position: sticky;
     width: 100%;
     top: 0px;
     z-index: 100;
     background-color: #141824 !important;
+    height: 100px;
+    overflow: hidden;
+    -webkit-transition: height 0.3s;
+    -moz-transition: height 0.3s;
+    transition: height 0.3s;
+    text-align: center;
 }
 
-.logo {
-    width: 170px;
+.header.shrink {
+    height: 80px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.148);
 }
+
+.header .logo {
+    width: 170px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
+.header.shrink .logo {
+    width: 140px;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+}
+
 
 .icn {
     color: white;

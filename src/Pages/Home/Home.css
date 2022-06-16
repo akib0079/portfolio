@@ -13,12 +13,12 @@
     width: 100%;
     height: 100%;
     z-index: -200;
-    opacity: 0.4;
+    opacity: 0.6;
     background-attachment: fixed;
     background-size: cover;
     background-position: bottom;
-    filter: blur(8px);
-    -webkit-filter: blur(8px);
+    filter: blur(5px);
+    -webkit-filter: blur(5px);
 }
 
 .hero {
@@ -187,11 +187,65 @@ footer {
 /* About sec css start */
 
 .aboutSec {
-    padding: 100px 0px;
-    background-color: #1d2131;
+    padding: 70px 0px;
+    background-color: #252732b3;
+    z-index: -20;
+}
+
+.globalIcn {
+    font-size: 22px;
+    color: #141824;
+    background-color: #25262A;
+    padding: 10px;
+    border-radius: 50%;
+    padding: 8px;
+    font-weight: 900 !important;
+    box-shadow: 0px 0px 14px -7px #f09819;
+    background-image: linear-gradient(45deg, #f09819 0%, #f7ff04 100%);
+}
+
+.Ainfo h1 {
+    font-family: 'Roboto Mono', monospace !important;
+    line-height: 55px;
+    font-weight: 400;
+    color: #FAFAFA;
+    letter-spacing: 1.5px;
+}
+
+.Ainfo p {
+    font-family: 'Roboto Mono', monospace !important;
+    font-weight: 350;
+    letter-spacing: 1.2px;
 }
 
 
+.skill {
+    padding: 30px 20px 20px 20px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 10%;
+    text-align: center;
+    background-color: #222433;
+    transition: 0.3s;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.skill:hover {
+    cursor: pointer;
+    transform: translateY(-5px);
+    background-color: #242534;
+}
+
+
+.skill p {
+    font-size: 20px;
+    color: rgb(244, 244, 244);
+}
+
+.tailwind {
+    padding: 10px 0px;
+}
 
 
 

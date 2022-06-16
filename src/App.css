@@ -6,7 +6,7 @@ body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
     z-index: -99;
-    scroll-behavior: smooth;
+    scroll-behavior: smooth !important;
 }
 
 p {
@@ -32,20 +32,13 @@ p {
     transition-duration: 300ms;
     transition-timing-function: ease;
     animation: curAnim 0.5s infinite alternate;
-    opacity: 0.5;
+    opacity: 0.7;
     pointer-events: auto;
-    z-index: -10;
+    z-index: 100;
+    pointer-events: none;
 }
 
-a {
-    cursor: pointer !important;
-    z-index: 1 !important;
-}
 
-button {
-    cursor: pointer !important;
-    z-index: 1 !important;
-}
 
 @keyframes curAnim {
     from {
