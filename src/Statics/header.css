@@ -42,7 +42,7 @@ body {
 }
 
 .lite {
-    background-color: #161A28;
+    background-color: #222433;
     box-shadow: rgba(137, 137, 137, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 1px 3px 1px;
     position: fixed;
     top: 0%;
@@ -82,12 +82,19 @@ body {
 .menuIcn {
     background-color: #31343d23;
     box-shadow: #f9b40537 0px 1px 3px 0px, rgba(139, 139, 139, 0.187) 0px 0px 0px 1px;
-    border-radius: 0px;
+    border-radius: 0px !important;
     padding: 0px;
     color: white;
     z-index: 100 !important;
 }
 
+.menuIcn:hover {
+    border-radius: 0px !important;
+}
+
+.swap {
+    border-radius: 0px !important;
+}
 
 .lite i {
     font-size: 20px;

@@ -80,7 +80,7 @@ const About = () => {
                         <h1 className="text-4xl mb-2">My Current SkillSets
                             <i class='bx bx-edit-alt codeIcn' ></i>
                         </h1>
-                        <p className='mt-4'>I have been working as a full-time Fullstack developer & freelancer, over 2 years. Besides that<br></br> I am trying to improve and add new skills to my arsenal & moving towards my dream as a developer.
+                        <p className='mt-4'>I have been working as a full-time Fullstack developer & freelancer, over 2 years. Besides that<br></br> I am trying to improve and add new skills to my arsenal everyday & moving towards my dream as a developer.
                             <a className="text-secondary after:content-['_↗'] ..." href="https://www.fiverr.com/akib0079" target="blank"> Visit Fiverr</a>
                         </p>
                     </div>

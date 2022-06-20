@@ -70,3 +70,19 @@ p {
     animation: curAnim2 0.5s forwards;
     border: 8px solid #FFB700;
 }
+
+
+
+@media (max-width: 767px) {
+
+    .projectInner {
+        min-height: 400px !important;
+        background-position: auto;
+    }
+
+    .projectInner p {
+        height: 50px;
+        overflow: hidden;
+    }
+
+}

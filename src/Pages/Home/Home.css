@@ -248,6 +248,66 @@ footer {
 }
 
 
+.projectSec {
+    padding: 70px 0px;
+    background-color: #222433;
+}
+
+.allProjects {
+    overflow: hidden !important;
+}
+
+.projectInner {
+    background-image: linear-gradient(to bottom, #312e4397 5%, #312e4325),
+        url('../../images/portfolioD1.svg');
+    min-height: 600px;
+    border-radius: 10px;
+    background-size: 100%;
+    background-position: auto;
+    background-repeat: no-repeat;
+    transition: 0.6s;
+    overflow: hidden !important;
+    background-color: #333142;
+}
+
+
+.projectInner:hover {
+    background-size: 102%;
+    cursor: pointer;
+    overflow: hidden !important;
+}
+
+.projectInner h1 {
+    font-family: 'Roboto Mono', monospace !important;
+    color: white;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+
+.projectInner .avatar-group .avatar {
+    overflow: hidden;
+    border-radius: 9999px;
+    border: 2px solid #373742;
+}
+
+.LinkBtn {
+    color: #222433;
+    padding: 9px 12px 5px 12px;
+    font-size: 22px;
+    background-image: linear-gradient(45deg, #f09819 20%, #f7ff04 100%);
+    border-radius: 50%;
+    transition: 0.6s;
+}
+
+.LinkBtn:hover {
+    background-image: linear-gradient(40deg, #F8B205 30%, #f7ff04 100%);
+}
+
+
+
+
+
 
 
 @keyframes rotate {
