@@ -36,7 +36,7 @@ const Contact = () => {
                             <i class='bx bxl-whatsapp contactIcn shadow-xl' ></i>
                             <div className="icnInfo">
                                 <p>Whatsapp</p>
-                                <h3><a href="https://wa.link/qnz6kb">01904187508-Send a message</a></h3>
+                                <h3><a target={'blank'} href="https://wa.link/qnz6kb">01904187508-Send a message</a></h3>
                             </div>
                         </div>
                     </div>
