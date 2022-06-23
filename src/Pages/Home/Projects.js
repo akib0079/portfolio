@@ -22,14 +22,14 @@ const Projects = () => {
                 <div className="projectSecInner">
                     <div className="Ainfo flex mb-8 justify-between items-center">
                         <div className="sectionHeader">
-                            <i class='bx bxs-bookmarks globalIcn mb-3' ></i>
+                            <i className='bx bxs-bookmarks globalIcn mb-3' ></i>
                             <h1 className="text-4xl mb-2">Featured Projects
-                                <i class='bx bxl-codepen codeIcn'></i>
+                                <i className='bx bxl-codepen codeIcn'></i>
                             </h1>
                         </div>
                         <div className="navigations flex">
-                            <div className='btn' ref={prevRef}><i class='bx bx-left-arrow-alt globalIcn -m-3' ></i></div>
-                            <div className='btn' ref={nextRef}><i class='bx bx-right-arrow-alt globalIcn -m-3'></i></div>
+                            <div className='btn' ref={prevRef}><i className='bx bx-left-arrow-alt globalIcn -m-3' ></i></div>
+                            <div className='btn' ref={nextRef}><i className='bx bx-right-arrow-alt globalIcn -m-3'></i></div>
                         </div>
                     </div>
                     <Swiper
@@ -60,29 +60,29 @@ const Projects = () => {
                                             <a className="text-white after:content-['_↗'] ..." href="https://github.com/akib0079/andro-s-cars-frontend" target="blank">View on Github</a>
                                         </p>
                                         <div className="technologies mt-4">
-                                            <div class="avatar-group -space-x-4">
-                                                <div class="avatar">
-                                                    <div class="w-12">
+                                            <div className="avatar-group -space-x-4">
+                                                <div className="avatar">
+                                                    <div className="w-12">
                                                         <img src={reactLogo} alt="reactlogo" />
                                                     </div>
                                                 </div>
-                                                <div class="avatar">
-                                                    <div class="w-12">
+                                                <div className="avatar">
+                                                    <div className="w-12">
                                                         <img src={bootstrapLogo} alt="reactlogo" />
                                                     </div>
                                                 </div>
-                                                <div class="avatar">
-                                                    <div class="w-12">
+                                                <div className="avatar">
+                                                    <div className="w-12">
                                                         <img src={firebaseLogo} alt="reactlogo" />
                                                     </div>
                                                 </div>
-                                                <div class="avatar">
-                                                    <div class="w-12">
+                                                <div className="avatar">
+                                                    <div className="w-12">
                                                         <img src={MongoLogo} alt="reactlogo" />
                                                     </div>
                                                 </div>
-                                                <div class="avatar">
-                                                    <div class="w-12">
+                                                <div className="avatar">
+                                                    <div className="w-12">
                                                         <img src={expressLogo} alt="reactlogo" />
                                                     </div>
                                                 </div>
@@ -91,7 +91,7 @@ const Projects = () => {
                                     </div>
                                     <div className="links">
                                         <button className='LinkBtn shadow-xl mt-3'> <a target={'blank'} href='https://andro-cars.netlify.app/'>
-                                            <i class='bx bx-link-alt' ></i>
+                                            <i className='bx bx-link-alt' ></i>
                                         </a></button>
                                     </div>
 
@@ -108,29 +108,29 @@ const Projects = () => {
                                             <a className="text-white after:content-['_↗'] ..." href="https://github.com/akib0079/booky-front-end" target="blank">View on Github</a>
                                         </p>
                                         <div className="technologies mt-4">
-                                            <div class="avatar-group -space-x-4">
-                                                <div class="avatar">
-                                                    <div class="w-12">
+                                            <div className="avatar-group -space-x-4">
+                                                <div className="avatar">
+                                                    <div className="w-12">
                                                         <img src={reactLogo} alt="reactlogo" />
                                                     </div>
                                                 </div>
-                                                <div class="avatar">
-                                                    <div class="w-12">
+                                                <div className="avatar">
+                                                    <div className="w-12">
                                                         <img src={TailwindLogo} alt="reactlogo" />
                                                     </div>
                                                 </div>
-                                                <div class="avatar">
-                                                    <div class="w-12">
+                                                <div className="avatar">
+                                                    <div className="w-12">
                                                         <img src={firebaseLogo} alt="reactlogo" />
                                                     </div>
                                                 </div>
-                                                <div class="avatar">
-                                                    <div class="w-12">
+                                                <div className="avatar">
+                                                    <div className="w-12">
                                                         <img src={MongoLogo} alt="reactlogo" />
                                                     </div>
                                                 </div>
-                                                <div class="avatar">
-                                                    <div class="w-12">
+                                                <div className="avatar">
+                                                    <div className="w-12">
                                                         <img src={expressLogo} alt="reactlogo" />
                                                     </div>
                                                 </div>
@@ -139,7 +139,7 @@ const Projects = () => {
                                     </div>
                                     <div className="links">
                                         <button className='LinkBtn shadow-xl mt-3'> <a target={'blank'} href='https://my-booky.netlify.app/'>
-                                            <i class='bx bx-link-alt' ></i>
+                                            <i className='bx bx-link-alt' ></i>
                                         </a></button>
                                     </div>
 
@@ -157,19 +157,19 @@ const Projects = () => {
                                             <a className="text-white after:content-['_↗'] ..." href="https://github.com/akib0079/travel-manias" target="blank">View on Github</a>
                                         </p>
                                         <div className="technologies mt-4">
-                                            <div class="avatar-group -space-x-4">
-                                                <div class="avatar">
-                                                    <div class="w-12">
+                                            <div className="avatar-group -space-x-4">
+                                                <div className="avatar">
+                                                    <div className="w-12">
                                                         <img src={reactLogo} alt="reactlogo" />
                                                     </div>
                                                 </div>
-                                                <div class="avatar">
-                                                    <div class="w-12">
+                                                <div className="avatar">
+                                                    <div className="w-12">
                                                         <img src={bootstrapLogo} alt="reactlogo" />
                                                     </div>
                                                 </div>
-                                                <div class="avatar">
-                                                    <div class="w-12">
+                                                <div className="avatar">
+                                                    <div className="w-12">
                                                         <img src={firebaseLogo} alt="reactlogo" />
                                                     </div>
                                                 </div>
@@ -178,7 +178,7 @@ const Projects = () => {
                                     </div>
                                     <div className="links">
                                         <button className='LinkBtn shadow-xl mt-3'> <a target={'blank'} href='https://travelmanias.netlify.app/'>
-                                            <i class='bx bx-link-alt' ></i>
+                                            <i className='bx bx-link-alt' ></i>
                                         </a></button>
                                     </div>
 

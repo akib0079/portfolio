@@ -329,7 +329,7 @@ footer {
 
 
 .contactIcn {
-    background-color: #373a4f;
+    background-color: #2b314a;
     padding: 18px;
     font-size: 28px;
     border-radius: 50%;
@@ -399,11 +399,13 @@ option {
 
 
 .contactInfo {
-    background-color: #3032533a;
+    background-color: #25273A;
     padding: 40px;
     border-radius: 10px;
+    background-image: linear-gradient(to bottom, #292c42 5%, #25273ac9), url('../../images/heroBg2.png');
+    background-position: auto;
+    background-attachment: fixed;
 }
-
 
 
 @keyframes rotate {

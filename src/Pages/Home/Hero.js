@@ -40,13 +40,13 @@ const Hero = () => {
                         </p>
                         <button className="mainBtn mt-2 mb-9">Lets Chat! <i className='bx bxs-conversation' ></i></button>
                         {/* counters */}
-                        <div class="flex p-6 counters justify-center lg:justify-start mt-10 shadow-2xl items-center flex-col md:flex-row" data-aos="flip-up" data-aos-delay="300" data-aos-duration="1200">
-                            <div class="counter flex items-center">
+                        <div className="flex p-6 counters justify-center lg:justify-start mt-10 shadow-2xl items-center flex-col md:flex-row" data-aos="flip-up" data-aos-delay="300" data-aos-duration="1200">
+                            <div className="counter flex items-center">
                                 <h3 className='flex'>0<animated.div>{number.to(n => n.toFixed(0))}</animated.div>+</h3>
                                 <p>Years of<br></br> Experience.</p>
                             </div>
-                            <div class="divider divider-horizontal flex"></div>
-                            <div class="counter flex items-center">
+                            <div className="divider divider-horizontal flex"></div>
+                            <div className="counter flex items-center">
                                 <h3 className='flex'><animated.div>{sNum.to(n => n.toFixed(0))}</animated.div></h3>
                                 <p>Projects Completed<br></br> On 15 countries</p>
                             </div>

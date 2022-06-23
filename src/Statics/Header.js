@@ -43,7 +43,7 @@ const Header = () => {
             </li>
             <li>
                 <a href="#contact">
-                    <i class='bx bxs-contact'></i>
+                    <i className='bx bxs-contact'></i>
                     <p>Contact me</p>
                 </a>
             </li>

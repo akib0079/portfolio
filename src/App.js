@@ -9,6 +9,8 @@ import Loading from './Pages/Loading/loading';
 import { useEffect, useState } from 'react';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
 
 
@@ -60,6 +62,15 @@ function App() {
         <Route path="/home" element={<Home />} />
       </Routes>
 
+      <ToastContainer position="top-right"
+        autoClose={5000}
+        hideProgressBar={false}
+        newestOnTop={false}
+        closeOnClick
+        rtl={false}
+        pauseOnFocusLoss
+        draggable
+        pauseOnHover />
       <Footer></Footer>
     </div>
   );

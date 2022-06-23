@@ -75,10 +75,10 @@ const About = () => {
             <div className="aboutSecInner container mx-auto" data-aos="fade-up">
                 <div className="sectionInner">
                     <div className="Ainfo">
-                        <i class='bx bxs-notepad globalIcn mb-3' ></i>
+                        <i className='bx bxs-notepad globalIcn mb-3' ></i>
                         <p className='italic mb-4'>Know about my skills</p>
                         <h1 className="text-4xl mb-2">My Current SkillSets
-                            <i class='bx bx-edit-alt codeIcn' ></i>
+                            <i className='bx bx-edit-alt codeIcn' ></i>
                         </h1>
                         <p className='mt-4'>I have been working as a full-time Fullstack developer & freelancer, over 2 years. Besides that<br></br> I am trying to improve and add new skills to my arsenal everyday & moving towards my dream as a developer.
                             <a className="text-secondary hover:underline after:content-['_↗'] ..." href="https://www.fiverr.com/akib0079" target="blank">Visit Fiverr</a>

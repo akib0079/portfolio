@@ -11,7 +11,7 @@ const Footer = () => {
                 <div className="contactdiv footerInfo">
                     <h1 className="md:text-4xl">
                         Lets Develop Something Exclusive<br></br> For you in a Convenient way.
-                        <i class='bx bx-message-square-dots codeIcn' ></i>
+                        <i className='bx bx-message-square-dots codeIcn' ></i>
                     </h1>
                     <a target={'blank'} href="https://www.fiverr.com/akib0079"><button className="mainBtn mt-10 mb-9">Hire me <i className='bx bxs-conversation' ></i></button></a>
                 </div>
@@ -33,11 +33,11 @@ const Footer = () => {
                     <p className='text-white'>Copyright © 2022 - All right reserved</p>
                 </div>
                 <div className="grid-flow-col gap-4 md:place-self-center md:justify-self-end icns items-center">
-                    <a target={'blank'} href="https://www.facebook.com/akibzawayed0079"><i class='bx bxl-facebook'></i></a>
-                    <a target={'blank'} href="https://www.instagram.com/akib_zawayed/"><i class='bx bxl-instagram' ></i></a>
-                    <a target={'blank'} href="https://github.com/akib0079"><i class='bx bxl-github' ></i></a>
-                    <a href="mailto:akibzawayed0079@gmail.com"><i class='bx bxs-envelope' ></i></a>
-                    <i onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} class='bx bxs-chevron-up-circle topIcn' title='Navigate to Top' ></i>
+                    <a target={'blank'} href="https://www.facebook.com/akibzawayed0079"><i className='bx bxl-facebook'></i></a>
+                    <a target={'blank'} href="https://www.instagram.com/akib_zawayed/"><i className='bx bxl-instagram' ></i></a>
+                    <a target={'blank'} href="https://github.com/akib0079"><i className='bx bxl-github' ></i></a>
+                    <a href="mailto:akibzawayed0079@gmail.com"><i className='bx bxs-envelope' ></i></a>
+                    <i onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })} className='bx bxs-chevron-up-circle topIcn' title='Navigate to Top' ></i>
                 </div>
             </div>
         </footer >
