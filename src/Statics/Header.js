@@ -24,28 +24,28 @@ const Header = () => {
     if (showMenu) {
         menu = <ul className="menu lite p-4 overflow-y-auto animate__animated animate__slideInRight">
             <li>
-                <Link to={'/home'}>
+                <a href="#hero">
                     <i className='bx bxs-home m-0' ></i>
                     <p>Home</p>
-                </Link>
+                </a>
             </li>
             <li>
-                <Link to={'/about'}>
+                <a href="#about">
                     <i className='bx bxs-pen' ></i>
                     <p>About</p>
-                </Link>
+                </a>
             </li>
             <li>
-                <Link to={'/projects'}>
+                <a href="#project">
                     <i className='bx bx-code-curly' ></i>
                     <p>Recent Projects</p>
-                </Link>
+                </a>
             </li>
             <li>
-                <Link to={'/home'}>
-                    <i className='bx bxl-blogger' ></i>
-                    <p>Blogs</p>
-                </Link>
+                <a href="#contact">
+                    <i class='bx bxs-contact'></i>
+                    <p>Contact me</p>
+                </a>
             </li>
         </ul>
     }

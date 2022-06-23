@@ -258,8 +258,6 @@ footer {
 }
 
 .projectInner {
-    background-image: linear-gradient(to bottom, #312e4397 5%, #312e4325),
-        url('../../images/portfolioD1.svg');
     min-height: 600px;
     border-radius: 10px;
     background-size: 100%;
@@ -304,9 +302,107 @@ footer {
     background-image: linear-gradient(40deg, #F8B205 30%, #f7ff04 100%);
 }
 
+/* Contact css */
+
+.contactSec {
+    padding: 80px 0px;
+    background-color: #222433;
+}
+
+.contactInner h1 {
+    font-size: 23px;
+    font-family: 'Roboto Mono', monospace !important;
+    line-height: 40px;
+    font-weight: 400;
+    color: #FAFAFA;
+    letter-spacing: 1.5px;
+}
+
+.ContactSecHeader h1 {
+    font-size: 33px;
+    font-family: 'Roboto Mono', monospace !important;
+    line-height: 40px;
+    font-weight: 400;
+    color: #FAFAFA;
+    letter-spacing: 1.5px;
+}
 
 
+.contactIcn {
+    background-color: #373a4f;
+    padding: 18px;
+    font-size: 28px;
+    border-radius: 50%;
+    color: #dadada;
+    margin: 20px 13px 20px 0px;
+    font-weight: 100;
+}
 
+.icnInfo p {
+    color: white;
+}
+
+.icnInfo h3 {
+    color: white;
+    font-size: 17px;
+    margin-top: 2px;
+    font-family: 'Roboto Mono', monospace !important;
+}
+
+
+.icnBox:hover .contactIcn {
+    background-color: #fcb708;
+    color: #222433;
+    transition: 0.2s ease-in;
+}
+
+input,
+select,
+textarea {
+    background-color: #292b3b00 !important;
+    border-radius: 2px !important;
+}
+
+option {
+    background-color: #222433 !important;
+    border-radius: 2px !important;
+    font-weight: 400 !important;
+}
+
+::-webkit-calendar-picker-indicator {
+    filter: invert(1);
+    font-size: 20px;
+}
+
+.submitBtn {
+    padding: 10px 24px;
+    background-image: linear-gradient(45deg, #f09819 10%, #f1e608 100%);
+    color: #2B2E45 !important;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 25px !important;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.contactForm {
+    border-left: 1px solid rgba(128, 128, 128, 0.253);
+}
+
+
+.contactForm h3 {
+    color: white;
+    font-family: 'Roboto Mono', monospace !important;
+    margin-bottom: 20px;
+}
+
+
+.contactInfo {
+    background-color: #3032533a;
+    padding: 40px;
+    border-radius: 10px;
+}
 
 
 

@@ -71,7 +71,7 @@ const About = () => {
 
 
     return (
-        <section className='aboutSec'>
+        <section className='aboutSec' id='about'>
             <div className="aboutSecInner container mx-auto" data-aos="fade-up">
                 <div className="sectionInner">
                     <div className="Ainfo">
@@ -81,7 +81,7 @@ const About = () => {
                             <i class='bx bx-edit-alt codeIcn' ></i>
                         </h1>
                         <p className='mt-4'>I have been working as a full-time Fullstack developer & freelancer, over 2 years. Besides that<br></br> I am trying to improve and add new skills to my arsenal everyday & moving towards my dream as a developer.
-                            <a className="text-secondary after:content-['_↗'] ..." href="https://www.fiverr.com/akib0079" target="blank"> Visit Fiverr</a>
+                            <a className="text-secondary hover:underline after:content-['_↗'] ..." href="https://www.fiverr.com/akib0079" target="blank">Visit Fiverr</a>
                         </p>
                     </div>
                     <div className="skillSec grid lg:grid-cols-7 grid-cols-2 gap-9 mt-12 animate__animated animate__fadeIn animate__delay-1s">

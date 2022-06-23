@@ -17,7 +17,7 @@ const Projects = () => {
     const prevRef = useRef(null);
     const nextRef = useRef(null);
     return (
-        <section className="projectSec animate__animated animate__fadeIn">
+        <section className="projectSec animate__animated animate__fadeIn" id='project'>
             <div className="container mx-auto">
                 <div className="projectSecInner">
                     <div className="Ainfo flex mb-8 justify-between items-center">

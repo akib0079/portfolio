@@ -2,6 +2,10 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
+html {
+    scroll-behavior: smooth
+}
+
 body {
     font-family: 'Poppins', sans-serif;
     overflow-x: hidden;
@@ -72,17 +76,153 @@ p {
 }
 
 
+/* width */
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #373742;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #373742;
+}
+
+
 
 @media (max-width: 767px) {
 
     .projectInner {
-        min-height: 400px !important;
+        min-height: 350px !important;
         background-position: auto;
     }
 
     .projectInner p {
         height: 50px;
         overflow: hidden;
+    }
+
+    .hero {
+        margin: 0px auto 0px auto;
+        padding: 21px 16px !important;
+    }
+
+    .info h1 {
+        font-family: 'Roboto Mono', monospace !important;
+        line-height: 43px !important;
+        font-weight: 500;
+        color: #FAFAFA;
+        letter-spacing: 1.25px;
+        font-size: 27px !important;
+    }
+
+    .counters {
+        display: none !important;
+    }
+
+    .icnReact {
+        width: 91px !important;
+        position: absolute;
+        bottom: 0em !important;
+        left: 0em !important;
+        z-index: 0 !important;
+        animation-name: rotate;
+        animation-duration: 20s;
+        animation-iteration-count: infinite;
+        animation-timing-function: linear;
+    }
+
+    .icnJs {
+        width: 80px !important;
+        position: absolute !important;
+        top: 4em !important;
+        right: 2em !important;
+        z-index: 0 !important;
+        animation: float 5s ease-in-out infinite;
+    }
+
+    .icnNode {
+        width: 94px !important;
+        position: absolute;
+        bottom: 0em;
+        right: 0em;
+        z-index: -10 !important;
+        animation: float 3s ease-in-out infinite;
+    }
+
+    .aboutSec {
+        padding: 55px 11px !important;
+        background-color: #252732b3;
+        z-index: -20;
+    }
+
+    .Ainfo h1 {
+        font-family: 'Roboto Mono', monospace !important;
+        line-height: 42px !important;
+        font-weight: 400;
+        color: #FAFAFA;
+        letter-spacing: 1.5px;
+        font-size: 29px !important;
+    }
+
+
+    .projectSec {
+        padding: 50px 11px !important;
+        background-color: #222433;
+    }
+
+    .contactSec {
+        padding: 30px 11px !important;
+        background-color: #222433;
+    }
+
+    .ContactSecHeader h1 {
+        font-size: 26px !important;
+        font-family: 'Roboto Mono', monospace !important;
+        line-height: 44px !important;
+        font-weight: 400;
+        color: #FAFAFA;
+        letter-spacing: 1.5px;
+        margin-bottom: 5px !important;
+    }
+
+    .contactInfo {
+        background-color: #3032533a;
+        padding: 25px !important;
+        border-radius: 10px;
+    }
+
+    .contactForm {
+        border-left: 0px solid rgba(128, 128, 128, 0.253) !important;
+    }
+
+    .footerInfo h1 {
+        font-family: 'Roboto Mono', monospace !important;
+        font-weight: 400;
+        color: #FAFAFA;
+        letter-spacing: 1.25px;
+        font-size: 17px !important;
+        line-height: 34px;
+    }
+
+    footer {
+        background-color: #25283dcb;
+        width: 100%;
+        padding: 45px 11px 20px 11px !important;
+        z-index: -11;
+    }
+
+    .footerTopInner {
+        margin-bottom: 61px !important;
     }
 
 }

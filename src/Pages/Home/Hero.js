@@ -29,7 +29,7 @@ const Hero = () => {
     });
 
     return (
-        <section className="HeroSec">
+        <section className="HeroSec" id='hero'>
             <div className="hero container mx-auto p-5 lg:p-0">
                 <div className="sectionInner grid md:grid-cols-2 items-center gap-4">
                     <div className="info">
