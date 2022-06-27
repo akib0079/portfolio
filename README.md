@@ -1,3 +1,3 @@
 # Portfolio redesign (Using Mern Stack)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project's [LiveLink](https://webdeveloper-akib.netlify.app).

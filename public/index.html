@@ -17,6 +17,21 @@
 <body>
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
+  <script>
+    document.addEventListener('mousemove', e => {
+      const cursor = document.getElementById('cursor');
+      cursor.setAttribute("style", "top: " + (e.pageY - 15) + 'px; left: ' + (e.pageX - 15) + 'px');
+    })
+
+    document.addEventListener('click', () => {
+      const cursor = document.getElementById('cursor');
+
+      cursor.classList.add('expend');
+      setTimeout(() => {
+        cursor.classList.remove('expend');
+      }, 500)
+    });
+  </script>
 </body>
 
 </html>

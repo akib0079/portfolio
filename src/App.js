@@ -26,23 +26,6 @@ function App() {
       setSiteLoading(false)
     }, 2000)
   }, []);
-
-
-  document.addEventListener('mousemove', e => {
-    const cursor = document.getElementById('cursor');
-    cursor.setAttribute("style", "top: " + (e.pageY - 15) + 'px; left: ' + (e.pageX - 15) + 'px');
-  })
-
-  document.addEventListener('click', () => {
-    const cursor = document.getElementById('cursor');
-
-    cursor.classList.add('expend');
-    setTimeout(() => {
-      cursor.classList.remove('expend');
-    }, 500)
-  });
-
-
   AOS.init();
 
 
@@ -54,9 +37,6 @@ function App() {
 
       {/* custom cursor */}
       <div id='cursor' className="cursor hidden lg:block"></div>
-
-
-
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />

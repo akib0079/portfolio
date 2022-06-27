@@ -78,10 +78,7 @@ footer {
     bottom: 4em;
     left: 3em;
     z-index: 0 !important;
-    animation-name: rotate;
-    animation-duration: 20s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
+    animation: rotate 17s linear infinite;
 }
 
 .icnNode {
@@ -101,6 +98,38 @@ footer {
     right: 4em;
     z-index: 0 !important;
     animation: float 5s ease-in-out infinite;
+}
+
+#icns {
+    opacity: 0.8;
+}
+
+.icn1 {
+    position: absolute;
+    top: 65%;
+    right: 2.5em;
+    z-index: 0 !important;
+}
+
+.icn2 {
+    position: absolute;
+    top: 45%;
+    left: 5em;
+    z-index: 0 !important;
+}
+
+.icn3 {
+    position: absolute;
+    top: 10%;
+    left: 11em;
+    z-index: 0 !important;
+}
+
+.icn4 {
+    position: absolute;
+    bottom: 4%;
+    left: 9em;
+    z-index: 0 !important;
 }
 
 .mainBtn {

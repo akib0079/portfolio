@@ -17,10 +17,10 @@ const Projects = () => {
     const prevRef = useRef(null);
     const nextRef = useRef(null);
     return (
-        <section className="projectSec animate__animated animate__fadeIn" id='project'>
+        <section className="projectSec" id='project'>
             <div className="container mx-auto">
                 <div className="projectSecInner">
-                    <div className="Ainfo flex mb-8 justify-between items-center">
+                    <div className="Ainfo flex mb-8 justify-between items-center" data-aos="fade-up">
                         <div className="sectionHeader">
                             <i className='bx bxs-bookmarks globalIcn mb-3' ></i>
                             <h1 className="text-4xl mb-2">Featured Projects
@@ -42,7 +42,6 @@ const Projects = () => {
                         navigation={true} modules={[Navigation]} className="mySwiper"
                         spaceBetween={50}
                         slidesPerView={1}
-                        data-aos="fade-up"
                         breakpoints={{
                             1024: {
                                 slidesPerView: 2,
