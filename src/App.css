@@ -11,6 +11,7 @@ body {
     overflow-x: hidden;
     z-index: -99;
     scroll-behavior: smooth !important;
+    cursor: none;
 }
 
 p {
@@ -23,24 +24,38 @@ p {
 
 .container {
     max-width: 1400px !important;
-    padding: 10px;
+    padding: 20px;
 }
 
-.cursor {
-    width: 30px;
-    height: 30px;
-    border: 2px solid #fdcf5a;
-    border-radius: 50%;
+
+/*Cursor Start*/
+[class^="cursor"] {
     position: absolute;
-    background: none;
-    transition-duration: 300ms;
-    transition-timing-function: ease;
-    animation: curAnim 0.5s infinite alternate;
-    opacity: 0.7;
-    pointer-events: auto;
-    z-index: 100;
+    top: 0;
+    left: 0;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    z-index: 9999;
     pointer-events: none;
 }
+
+.cursor-outer {
+    width: 40px;
+    height: 40px;
+    border: 2px solid #e0e0e075;
+    transition: all .08s ease-out;
+}
+
+.cursor-inner {
+    width: 7px;
+    height: 7px;
+    background: #dbdbdbd4;
+}
+
+.mono {
+    font-family: 'Roboto Mono', monospace !important;
+}
+
 
 
 
@@ -125,7 +140,7 @@ p {
         padding-left: 1.5em !important;
         right: 0;
         top: 0;
-        width: 25em;
+        width: 80% !important;
         z-index: 90 !important;
     }
 

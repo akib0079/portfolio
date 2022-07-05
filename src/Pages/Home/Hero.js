@@ -5,6 +5,8 @@ import nodeIcn from '../../images/node-icn.svg';
 import jsIcn from '../../images/js-icn.svg';
 import { useSpring, animated, config } from 'react-spring';
 import './Home.css';
+import '../../App.css'
+import { Link } from 'react-router-dom';
 
 
 const Hero = () => {
@@ -35,8 +37,8 @@ const Hero = () => {
         allIcns.forEach(icn => {
             const speed = icn.getAttribute('data-value');
 
-            const x = (window.innerWidth - e.pageX * speed) / 200;
-            const y = (window.innerWidth - e.pageY * speed) / 200;
+            const x = (window.innerWidth - e.pageX * speed) / 70;
+            const y = (window.innerWidth - e.pageY * speed) / 70;
 
             icn.style.transform = `translateX(${x}px) translateY(${y}px)`
         })
@@ -50,15 +52,15 @@ const Hero = () => {
                 <div className="sectionInner grid lg:grid-cols-2 items-center gap-4">
                     <div className="info">
                         <div className="animation" data-aos="fade-up" data-aos-delay="500" data-aos-duration="700">
-                            <p className='badge'>FullStack Web developer : Akib0079</p>
-                            <h1 className="md:text-5xl">It's not a bug. It's an undocumented feature
-                                <i className='bx bx-code-curly codeIcn' ></i></h1>
+                            <p className='badge '>FullStack Web developer : Akib0079</p>
+                            <h1 className="md:text-5xl content">Hello World(<i className='bx bx-code-alt codeIcn2' ></i>),<br></br>
+                            </h1>
                         </div>
-                        <p className="py-6" data-aos="fade-up" data-aos-delay="600" data-aos-duration="700">Hello, this is Akib Zawayed. A Designer, A Developer, and A Wordpress-Expert. Trying to make the Web better and more innovative in my own way.
+                        <p className="py-6 infos" data-aos="fade-up" data-aos-delay="600" data-aos-duration="700">This is Akib Zawayed. A Designer, A Developer and A Wordpress-Expert. Trying to make the Web better and more innovative in my own way. Welcome to my fascinating world.
                         </p>
-                        <a href="mailto:akibzawayed0079@gmail.com" data-aos="fade-up" data-aos-delay="700" data-aos-duration="700">
-                            <button className="mainBtn mt-2 mb-9">Lets Chat! <i className='bx bxs-conversation' ></i></button>
-                        </a>
+                        <Link to={'/contact'} data-aos="fade-up" data-aos-delay="700" data-aos-duration="700">
+                            <button className="mainBtn mt-2 mb-9"><p className='lineHvr'>Lets Chat!</p> <i className='bx bxs-conversation' ></i></button>
+                        </Link>
                         {/* counters */}
                         <div className="p-6 counters justify-center lg:justify-start mt-10 shadow-2xl items-center flex-col md:flex-row hidden lg:flex " data-aos="flip-up" data-aos-delay="300" data-aos-duration="1200">
                             <div className="counter flex items-center">

@@ -6,8 +6,8 @@
   <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="theme-color" content="#000000" />
-  <meta name="description" content="Web site created using create-react-app" />
-  <link rel="apple-touch-icon" href="%PUBLIC_URL%/logo192.png" />
+  <meta name="description" content="Akib's Portfolio" />
+  <link rel="apple-touch-icon" href="%PUBLIC_URL%/favicon.ico" />
   <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
   <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
@@ -18,19 +18,15 @@
   <noscript>You need to enable JavaScript to run this app.</noscript>
   <div id="root"></div>
   <script>
-    document.addEventListener('mousemove', e => {
-      const cursor = document.getElementById('cursor');
-      cursor.setAttribute("style", "top: " + (e.pageY - 15) + 'px; left: ' + (e.pageX - 15) + 'px');
+    document.addEventListener("mousemove", e => {
+      const cursor = document.querySelector(".cursor-inner");
+      const cursor2 = document.querySelector(".cursor-outer");
+      cursor.style.top = e.pageY + "px";
+      cursor.style.left = e.pageX + "px";
+
+      cursor2.style.top = e.pageY + "px";
+      cursor2.style.left = e.pageX + "px";
     })
-
-    document.addEventListener('click', () => {
-      const cursor = document.getElementById('cursor');
-
-      cursor.classList.add('expend');
-      setTimeout(() => {
-        cursor.classList.remove('expend');
-      }, 500)
-    });
   </script>
 </body>
 

@@ -11,6 +11,9 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Contact from './Pages/Home/Contact';
+import Contactme from './Pages/Contact/Contactme';
+import Page404 from './Pages/Page404/Page404';
 
 
 
@@ -35,12 +38,18 @@ function App() {
     <div className="App animate__animated animate__fadeIn">
       <Header></Header>
 
-      {/* custom cursor */}
-      <div id='cursor' className="cursor hidden lg:block"></div>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/contact" element={<Contactme></Contactme>} />
+        <Route path="*" element={<Page404></Page404>} />
       </Routes>
+
+
+
+
+
+
 
       <ToastContainer position="top-right"
         autoClose={5000}
@@ -51,6 +60,15 @@ function App() {
         pauseOnFocusLoss
         draggable
         pauseOnHover />
+
+
+
+
+      {/* custom cursor */}
+      <div className="cursorDiv hidden lg:block">
+        <div className="cursor-outer"></div>
+        <div className="cursor-inner"></div>
+      </div>
       <Footer></Footer>
     </div>
   );

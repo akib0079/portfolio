@@ -1,0 +1,71 @@
+[
+    {
+        "id": "0",
+        "name": "Andro's Car",
+        "img": "./publicImg/AndroCar.webp",
+        "s_info": "Andro-cars is a car parts manufacturing website,From this website Users can order car parts as their needs.",
+        "g_link": "https://github.com/akib0079/andro-s-cars-frontend",
+        "l_link": "https://andro-cars.netlify.app/",
+        "techs": [
+            {
+                "img": "./publicImg/ProjectReactLogo.svg"
+            },
+            {
+                "img": "./publicImg/ProjectbootstrapLogo.svg"
+            },
+            {
+                "img": "./publicImg/ProjectfirebaseLogo.svg"
+            },
+            {
+                "img": "./publicImg/ProjectmongoDbLogo.svg"
+            },
+            {
+                "img": "./publicImg/ProjectexpressLogo.svg"
+            }
+        ]
+    },
+    {
+        "id": "1",
+        "name": "My Booky",
+        "img": "./publicImg/my-booky.webp",
+        "s_info": "My-Booky is a ware-house management website for <br>various books.User will be able to maintain books stocks or add new books.",
+        "g_link": "https://github.com/akib0079/booky-front-end",
+        "l_link": "https://my-booky.netlify.app/",
+        "techs": [
+            {
+                "img": "./publicImg/ProjectReactLogo.svg"
+            },
+            {
+                "img": "./publicImg/ProjecttailWindLogo.svg"
+            },
+            {
+                "img": "./publicImg/ProjectmongoDbLogo.svg"
+            },
+            {
+                "img": "./publicImg/ProjectfirebaseLogo.svg"
+            },
+            {
+                "img": "./publicImg/ProjectexpressLogo.svg"
+            }
+        ]
+    },
+    {
+        "id": "2",
+        "name": "Travel Mania",
+        "img": "./publicImg/travel-mania.webp",
+        "s_info": "Travel Mania is a Travel booking website for<br> Travel agencies.Verified Logged In Users can book a package from the website.",
+        "g_link": "https://github.com/akib0079/travel-manias",
+        "l_link": "https://travelmanias.netlify.app/",
+        "techs": [
+            {
+                "img": "./publicImg/ProjectReactLogo.svg"
+            },
+            {
+                "img": "./publicImg/ProjectbootstrapLogo.svg"
+            },
+            {
+                "img": "./publicImg/ProjectfirebaseLogo.svg"
+            }
+        ]
+    }
+]
